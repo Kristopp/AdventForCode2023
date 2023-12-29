@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "DayOne",
+            "request": "launch",
+            "mainClass": "com.aoc.aoc.dayOne.DayOne",
+            "projectName": "aoc"
+        },
+        {
+            "type": "java",
+            "name": "dayOne",
+            "request": "launch",
+            "mainClass": "com.aoc.aoc.dayOne",
+            "projectName": "aoc"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AocApplication<aoc>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.aoc.aoc.AocApplication",
+            "projectName": "aoc",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
